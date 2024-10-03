@@ -28,11 +28,13 @@ pip install -r requirements.txt
 ## Run the backend
 
 ```bash
+cd backend
 uvicorn app:app --reload
 ```
 
 ## Run the frontend
 
 ```bash
+cd frontend
 streamlit run app.py
 ```
